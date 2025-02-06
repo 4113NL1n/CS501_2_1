@@ -89,6 +89,65 @@ class MainActivity : ComponentActivity() {
                                 }
 
                             }
+                            HorizontalDivider(
+                                thickness = 20.dp,
+                                color = Color(10,100,100)
+                            )
+                            Column(
+                                modifier = Modifier.fillMaxSize().background(Color(10,100,100))
+                            ){
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "1) Scramble eggs till it's no longer liquid ")
+                                }
+                                HorizontalDivider(
+                                    thickness = 20.dp,
+                                    color = Color(10,100,100)
+                                )
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "2) Take eggs out the pan and heat pan to max for 30 second")
+                                }
+                                HorizontalDivider(
+                                    thickness = 20.dp,
+                                    color = Color(10,100,100)
+                                )
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "3) Put in the rice and stir constantly for 1 minute")
+                                }
+                                HorizontalDivider(
+                                    thickness = 20.dp,
+                                    color = Color(10,100,100)
+                                )
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "4) Take the rice out, heat pan for 30 more seconds")
+                                }
+                                HorizontalDivider(
+                                    thickness = 20.dp,
+                                    color = Color(10,100,100)
+                                )
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "5) Put in the diced steak and pan fiy each side for 1 to 2 min each")
+                                }
+                                HorizontalDivider(
+                                    thickness = 20.dp,
+                                    color = Color(10,100,100)
+                                )
+                                Column(
+                                    modifier = Modifier.fillMaxWidth().background(Color(10,130,100))
+                                ){
+                                    Text(text = "6) Put back in the egg and rice and any desired seasoning")
+                                }
+
+                            }
                         }
                     }
                 }
